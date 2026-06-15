@@ -1,0 +1,46 @@
+{
+    "schemaVersion": 1,
+    "id": "featurecollection",
+    "version": "${version}",
+    "name": "Feature Collection",
+    "description": "基于 Minecraft 26.x 新命名体系的功能合集模组 - 包含经验瓶快速使用、苦力怕防爆、玩家信息查询等实用功能",
+    "authors": [
+        "ExampleDev"
+    ],
+    "contact": {
+        "homepage": "https://example.com",
+        "sources": "https://github.com/example/feature-collection",
+        "issues": "https://github.com/example/feature-collection/issues"
+    },
+    "license": "MIT",
+    "icon": "assets/featurecollection/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.example.featurecollection.FeatureCollectionMod"
+        ]
+    },
+    "mixins": [
+        "featurecollection.mixin.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.18.4",
+        "fabric-api": "*",
+        "minecraft": ">=1.19.4",
+        "java": ">=25"
+    },
+    "suggests": {
+        "minecraft": "26.1.2"
+    },
+    "breaks": {
+        "fabricloader": "<0.18.4"
+    },
+    "custom": {
+        "modmenu": {
+            "links": {
+                "modmenu.discord": "https://example.com/discord"
+            },
+            "update_checker": true
+        }
+    }
+}
