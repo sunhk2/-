@@ -1,0 +1,26 @@
+{
+    "schemaVersion": 1,
+    "id": "featurecollection",
+    "version": "${version}",
+    "name": "Feature Collection",
+    "description": "一个包含多个实用小功能的Fabric模组",
+    "authors": ["ExampleDev"],
+    "contact": {
+        "homepage": "https://example.com",
+        "sources": "https://github.com/example/feature-collection"
+    },
+    "license": "MIT",
+    "icon": "assets/featurecollection/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": ["com.example.featurecollection.FeatureCollectionMod"]
+    },
+    "mixins": [
+        "featurecollection.mixin"
+    ],
+    "depends": {
+        "fabricloader": ">=0.7.8",
+        "fabric": "*",
+        "minecraft": "1.14.4"
+    }
+}

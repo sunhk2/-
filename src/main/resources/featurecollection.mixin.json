@@ -1,0 +1,11 @@
+{
+    "required": true,
+    "package": "com.example.featurecollection.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+        "CreeperMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
